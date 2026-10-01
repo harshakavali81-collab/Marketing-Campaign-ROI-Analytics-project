@@ -1,0 +1,225 @@
+{
+  "description": "All packaged files except this manifest. No archive or credentials included.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 84,
+      "sha256": "f5380292de440c4308531275c9123dd363ed8e9b40f81034bc22f0ba170afd35"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1073,
+      "sha256": "819a0eba542d65b3593f59a4848a251ae697a3ce0e2154301980dcd5e13b92b7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4005,
+      "sha256": "c6009959f8c436e3295581e2b059204c7e0d56072b3287e37b4d0f38c2a64321"
+    },
+    {
+      "path": "data/clean_campaigns.csv",
+      "bytes": 338970,
+      "sha256": "163b33016713defa119ca68dbfe1913198a201a3a850013846bf4a466fa08589"
+    },
+    {
+      "path": "data/quarantined_rows.csv",
+      "bytes": 1300,
+      "sha256": "22b1c49b4cee4ca50b4ea3e6c2049a540d795400f8e9e4607e7aa63f4066d912"
+    },
+    {
+      "path": "data/raw_campaigns.csv",
+      "bytes": 312817,
+      "sha256": "e71fea037be53e78e16ce8b9c8d8538c145d0cffa1d1bec34891e17886d81d96"
+    },
+    {
+      "path": "diagrams/kpi_dependencies.png",
+      "bytes": 123795,
+      "sha256": "2d0bf90cf3f20db487d628308e1ff482ade31711ab0e2a43d110e1a35e6c3b34"
+    },
+    {
+      "path": "diagrams/kpi_dependencies.svg",
+      "bytes": 47465,
+      "sha256": "b01b4ed95de789ae88b24f65f8586229e7ddcfb3dd7ebc1d4d1f9571d89b678a"
+    },
+    {
+      "path": "diagrams/project_structure.png",
+      "bytes": 118436,
+      "sha256": "62b300004332442889bcb4db0f68e3225c609cb48d95e7de28c5950384b8649d"
+    },
+    {
+      "path": "diagrams/project_structure.svg",
+      "bytes": 56286,
+      "sha256": "e8a9f91d8b06448298796afd1caa17e7c11183f4395e19c42c45d45d3878f062"
+    },
+    {
+      "path": "diagrams/workflow.png",
+      "bytes": 101870,
+      "sha256": "9ff204527a3f76b96d89ef195acf08c756eaadf941aa49840ae3731208077fa5"
+    },
+    {
+      "path": "diagrams/workflow.svg",
+      "bytes": 48672,
+      "sha256": "075f02f0121ad7d4ac0beb9d5d2caf51757a3e25372e7ef687e5870a9064fc5f"
+    },
+    {
+      "path": "docs/COMPLETE_PROJECT_GUIDE.md",
+      "bytes": 14737,
+      "sha256": "6964cf10329761862b36da5f4a767cc145816144ebdbe92fa9471bda1c43c2aa"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 1098,
+      "sha256": "e0be37a12373d54ae8476b8342846703f656b55b02606e8de4172158bc3713c6"
+    },
+    {
+      "path": "docs/FINAL_REPORT.md",
+      "bytes": 2482,
+      "sha256": "73461f1aeae055fc0cfb61bbe410b7d2fdcca3aa647c3ca1463f7c258ccd66b4"
+    },
+    {
+      "path": "docs/GITHUB_SETUP.md",
+      "bytes": 824,
+      "sha256": "77f254d22515ab982199c07bf826003a6723c43a97e3c8b2ab9f05c5f15931cd"
+    },
+    {
+      "path": "docs/Marketing_Campaign_ROI_Project_Report.pdf",
+      "bytes": 3685,
+      "sha256": "5c7a6452185058969254fc1ec4360d3979106ae2688da61d81dd9bdd8082d914"
+    },
+    {
+      "path": "docs/Marketing_ROI_Complete_Guide.pdf",
+      "bytes": 502759,
+      "sha256": "3aa35b9797c5026de0614be2267a537065f67e32ee668d83690e3ba3853b302d"
+    },
+    {
+      "path": "docs/RESUME_AND_INTERVIEW.md",
+      "bytes": 1933,
+      "sha256": "9e29254c6f0f4386e58769bc52446eaa34dc4a38657fd42565bde32b63b58959"
+    },
+    {
+      "path": "docs/WORKFLOW_AND_STRUCTURE.md",
+      "bytes": 1618,
+      "sha256": "f65cfc80e04348f3c808674a96f8e6874f3458b3a43b83395a0ba14a1ead63f4"
+    },
+    {
+      "path": "docs/build_documentation.py",
+      "bytes": 5716,
+      "sha256": "85837c9426d8a6c693b98bd45c84e9501f28d174262b632db42623498406ec73"
+    },
+    {
+      "path": "excel/Marketing_ROI_Analysis.xlsx",
+      "bytes": 227562,
+      "sha256": "c8eb00498724bfe6da69a089921d02f9ce4ebb3b84328d96d1e41507e4957e83"
+    },
+    {
+      "path": "excel/build_workbook.mjs",
+      "bytes": 3750,
+      "sha256": "d3f855a7d8be6f4edfeca38dabba08ecd18816075c5f4462d8386a31626f8e5a"
+    },
+    {
+      "path": "notebooks/EDA.ipynb",
+      "bytes": 181737,
+      "sha256": "7a9fd450c4c8333666dd2947c2158d0f329d41ecbb20e584fff9436b18c549f0"
+    },
+    {
+      "path": "outputs/campaign_summary.csv",
+      "bytes": 2136,
+      "sha256": "b32aaf50b3cece4528808e840e3774011a794cfaf640a76c490d06f26136e279"
+    },
+    {
+      "path": "outputs/channel_summary.csv",
+      "bytes": 1089,
+      "sha256": "58673857646c5e9d73051aa74d04045fd713e5f05775cecdd974a56eef7780d2"
+    },
+    {
+      "path": "outputs/cleaning_log.json",
+      "bytes": 185,
+      "sha256": "46c89a2bd4a5ac0bb00b03c506fa26c995c739f832c991013259e66c444430ca"
+    },
+    {
+      "path": "outputs/dashboard.html",
+      "bytes": 978892,
+      "sha256": "1983fa5f9cbb52ca7fba424e0c3bca1436d301069dcd5fc4a4287e8e57780fa5"
+    },
+    {
+      "path": "outputs/dashboard.png",
+      "bytes": 131122,
+      "sha256": "7eed6c0d0fcfd30f0789fe33e353074b4ab13584d09de29939c7ef8b3932c17f"
+    },
+    {
+      "path": "outputs/marketing.sqlite",
+      "bytes": 397312,
+      "sha256": "27b2ef3a8e132750334770058a2864b2d2a6e953502c601066df0d3e7137ff2a"
+    },
+    {
+      "path": "outputs/monthly_summary.csv",
+      "bytes": 2384,
+      "sha256": "0fc93739e0ea31fba502dd8441f15cef7fee6f7c3ead5b316d901e4b011fdc82"
+    },
+    {
+      "path": "outputs/overall.csv",
+      "bytes": 313,
+      "sha256": "e7d7a3bdf16b065bb81649cfbee353d3d158f5c15c423cbf512bd83dc843e965"
+    },
+    {
+      "path": "outputs/sql_result_1.csv",
+      "bytes": 549,
+      "sha256": "07a156d925cd85f2cd3f68cbbaf8403eed4159a11b67e46868d40b8765fdacd9"
+    },
+    {
+      "path": "outputs/sql_result_2.csv",
+      "bytes": 1202,
+      "sha256": "ed5e627ac5eb5108c3ab538bdec4294cf6c601029f2454d79dc39edfd6cdc5ed"
+    },
+    {
+      "path": "outputs/sql_result_3.csv",
+      "bytes": 626,
+      "sha256": "f2cd54f4da8d9c7eae41f1676d208d6a9e923d3175f81b2036765a7a133cc54d"
+    },
+    {
+      "path": "outputs/sql_result_4.csv",
+      "bytes": 564,
+      "sha256": "fc0187288cef8727d8e469bab28e35e581ea6ece397f613a8d0d404cf1c6a7c2"
+    },
+    {
+      "path": "powerbi/BUILD_GUIDE.md",
+      "bytes": 1951,
+      "sha256": "78c9e0e9b5e0390fb7130557b186c3f65ba739622cf0827d100b0e07beb9223f"
+    },
+    {
+      "path": "powerbi/import.pq",
+      "bytes": 654,
+      "sha256": "b1afb87524f318c01481a62ad1894a973b13ef5c9206203e14046883e5ec1053"
+    },
+    {
+      "path": "powerbi/measures.dax",
+      "bytes": 640,
+      "sha256": "30b82d31fc1885ec140989c281fc64359699fd02062a5168c6accde0b9bb0d77"
+    },
+    {
+      "path": "powerbi/theme.json",
+      "bytes": 208,
+      "sha256": "559b879f1a740b56ed16b845151d2eb8833314fd88bd55f8b48a81b5f68dbde3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 99,
+      "sha256": "ce338d71f6b5b58c335f31f421696c28303bdfc3d290b993acf01e694fa4fd57"
+    },
+    {
+      "path": "sql/analysis.sql",
+      "bytes": 1321,
+      "sha256": "9e9b4e55a27ad83b1513195465ea4ed783637fc305c4a488b5f9f1baa42f679d"
+    },
+    {
+      "path": "src/analyze.py",
+      "bytes": 8652,
+      "sha256": "e11b196a1ca2da1a3997e57ed5904cde9a7451fe225dcee348b6b2e3a0f0c045"
+    },
+    {
+      "path": "src/dashboard_template.html",
+      "bytes": 3911,
+      "sha256": "3ee8602162de5e731e7269429f7082bff35903fc9600fe84845cb26c59902def"
+    }
+  ]
+}

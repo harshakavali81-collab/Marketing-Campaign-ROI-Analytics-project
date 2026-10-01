@@ -11,7 +11,15 @@ End-to-end Data Analyst portfolio project for Kavali Harshavardhan using Excel, 
 2. Open `excel/Marketing_ROI_Analysis.xlsx` for editable source data, formula-based channel analysis and a linked chart.
 3. Read `docs/FINAL_REPORT.md` for findings and limitations.
 4. Follow `powerbi/BUILD_GUIDE.md` to create the native Power BI report. A `.pbix` is not included.
-5. Follow `docs/GITHUB_SETUP.md` to publish your own repository.
+5. Read [the complete explanation](docs/COMPLETE_PROJECT_GUIDE.md), [workflow and structure diagrams](docs/WORKFLOW_AND_STRUCTURE.md), and [the PDF guide](docs/Marketing_ROI_Complete_Guide.pdf).
+6. See `docs/GITHUB_SETUP.md` for cloning and updating this published repository.
+
+## Full documentation and diagrams
+- [Complete guide PDF](docs/Marketing_ROI_Complete_Guide.pdf): workflow, architecture, calculations, setup, limitations and interview notes.
+- [Final report PDF](docs/Marketing_Campaign_ROI_Project_Report.pdf).
+- [Workflow diagram](diagrams/workflow.png), [KPI dependencies](diagrams/kpi_dependencies.png), [project structure](diagrams/project_structure.png).
+- Editable Mermaid diagrams are in `docs/WORKFLOW_AND_STRUCTURE.md`; standalone SVG and PNG diagrams are in `diagrams/`.
+- `docs/FILE_MANIFEST.json` lists packaged files with SHA-256 checksums.
 
 ## Reproduce the analysis
 Python 3.10+ is recommended. From this folder:
