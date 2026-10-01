@@ -1,0 +1,14 @@
+-- Create each measure separately on the Campaigns table.
+Total Spend = SUM(Campaigns[spend])
+Revenue = SUM(Campaigns[revenue])
+Contribution Before Marketing = SUM(Campaigns[contribution_profit])
+Net Contribution = [Contribution Before Marketing] - [Total Spend]
+Impressions = SUM(Campaigns[impressions])
+Clicks = SUM(Campaigns[clicks])
+Acquisitions = SUM(Campaigns[acquisitions])
+CTR = DIVIDE([Clicks], [Impressions])
+CPC = DIVIDE([Total Spend], [Clicks])
+Conversion Rate = DIVIDE([Acquisitions], [Clicks])
+CPA = DIVIDE([Total Spend], [Acquisitions])
+ROAS = DIVIDE([Revenue], [Total Spend])
+ROI = DIVIDE([Net Contribution], [Total Spend])

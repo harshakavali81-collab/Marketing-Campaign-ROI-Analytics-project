@@ -1,0 +1,13 @@
+{
+  "name": "Marketing ROI",
+  "dataColors": [
+    "#0D9488",
+    "#2563EB",
+    "#E76F51",
+    "#64748B",
+    "#8B5CF6"
+  ],
+  "background": "#F1F5F9",
+  "foreground": "#10243A",
+  "tableAccent": "#0D9488"
+}

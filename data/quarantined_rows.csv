@@ -1,0 +1,16 @@
+date,campaign_id,channel,audience,spend,impressions,clicks,acquisitions,revenue,contribution_profit
+2025-01-05,Search_Prospecting,Search,Prospecting,,7837,278,18,28516.0,15683.8
+2025-01-05,Search_Retention,Search,Retention,,10354,344,18,31468.82,17307.85
+2025-01-05,Social_Prospecting,Social,Prospecting,,16927,406,9,14331.53,7882.34
+2025-01-05,Social_Retention,Social,Retention,,6014,132,2,3945.83,2170.21
+2025-01-05,Email_Prospecting,Email,Prospecting,,11223,798,71,119947.11,65970.91
+2025-01-05,Email_Retention,Email,Retention,,13530,933,95,182305.22,100267.87
+2025-01-05,Display_Prospecting,Display,Prospecting,,16509,160,5,10874.3,5980.86
+2025-01-05,Display_Retention,Display,Retention,,5423,59,2,4027.97,2215.38
+2025-01-05,Affiliate_Prospecting,Affiliate,Prospecting,,12627,328,15,28053.59,15429.47
+2025-01-05,Affiliate_Retention,Affiliate,Retention,,14905,399,19,35763.73,19670.05
+2025-01-06,Search_Prospecting,Search,Prospecting,5947.47,-1,220,11,19839.28,10911.6
+2025-01-06,Search_Retention,Search,Retention,9463.44,-1,312,28,52772.39,29024.81
+2025-01-06,Social_Prospecting,Social,Prospecting,6853.27,-1,323,10,19261.78,10593.98
+2025-01-06,Social_Retention,Social,Retention,3103.59,-1,165,7,14390.87,7914.98
+2025-01-06,Email_Prospecting,Email,Prospecting,2750.7,-1,750,50,112437.59,61840.67

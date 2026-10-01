@@ -1,0 +1,7 @@
+{
+  "raw_rows": 3670,
+  "duplicates_removed": 20,
+  "quarantined_rows": 15,
+  "clean_rows": 3635,
+  "rule": "Quarantine missing, negative or inconsistent records; no zero imputation."
+}
