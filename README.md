@@ -2,34 +2,20 @@
 
 End-to-end Data Analyst portfolio project for Kavali Harshavardhan using Excel, SQLite, Python and Power BI setup assets.
 
-**Synthetic data only.** This is a simulation, not a client engagement. No actual business growth or savings are claimed.
+[Setup](#local-installation--setup-guide) · [Architecture](#architecture--system-design-diagram) · [Detailed guide](PROJECT_GUIDE.md) · [Repository standard](docs/REPOSITORY_STANDARD.md)
 
-![Dashboard](outputs/dashboard.png)
+## Visuals
 
-## Start here
-1. Open `outputs/dashboard.html` in your browser. It works offline and includes channel/month filters.
-2. Open `excel/Marketing_ROI_Analysis.xlsx` for editable source data, formula-based channel analysis and a linked chart.
-3. Read `docs/FINAL_REPORT.md` for findings and limitations.
-4. Follow `powerbi/BUILD_GUIDE.md` to create the native Power BI report. A `.pbix` is not included.
-5. Read [the complete explanation](docs/COMPLETE_PROJECT_GUIDE.md), [workflow and structure diagrams](docs/WORKFLOW_AND_STRUCTURE.md), and [the PDF guide](docs/Marketing_ROI_Complete_Guide.pdf).
-6. See `docs/GITHUB_SETUP.md` for cloning and updating this published repository.
+![Dashboard](<outputs/dashboard.png>)
 
-## Full documentation and diagrams
-- [Complete guide PDF](docs/Marketing_ROI_Complete_Guide.pdf): workflow, architecture, calculations, setup, limitations and interview notes.
-- [Final report PDF](docs/Marketing_Campaign_ROI_Project_Report.pdf).
-- [Workflow diagram](diagrams/workflow.png), [KPI dependencies](diagrams/kpi_dependencies.png), [project structure](diagrams/project_structure.png).
-- Editable Mermaid diagrams are in `docs/WORKFLOW_AND_STRUCTURE.md`; standalone SVG and PNG diagrams are in `diagrams/`.
-- `docs/FILE_MANIFEST.json` lists packaged files with SHA-256 checksums.
+Existing project visual; diagrams and illustrative graphics are not evidence of a deployed application.
 
-## Reproduce the analysis
-Python 3.10+ is recommended. From this folder:
-```
-python -m pip install -r requirements.txt
-python src/analyze.py
-```
-The checked-in raw dataset is used on reruns. Delete it only if you want the seeded generator to recreate it. The pipeline cleans data, saves quarantine records, builds SQLite, executes SQL, reconciles Python/SQL, and regenerates charts, CSVs, HTML and the final report. Excel is a delivered snapshot with live formulas; source regeneration does not automatically refresh its source sheet. Replace clean sheet records to refresh it.
+## Live Link / Demo
 
-## Included
+Download and open [dashboard.html](outputs/dashboard.html) in a browser. This is a local synthetic-data dashboard, not a live marketing service.
+
+## Key Features
+
 - `data/`: raw, clean and quarantined campaign-day CSVs.
 - `sql/analysis.sql`: channel ROI, campaign ranking, month-over-month trend, audience analysis.
 - `src/analyze.py`: seeded generator and reproducible analysis.
@@ -39,15 +25,63 @@ The checked-in raw dataset is used on reruns. Delete it only if you want the see
 - `powerbi/`: DAX measures, Power Query import, theme, data dictionary and dashboard instructions.
 - `docs/`: final report, publishing instructions, resume bullets and interview notes.
 
-## KPI methodology
-CTR = clicks/impressions; CPC = spend/clicks; conversion rate = acquisitions/clicks; CPA = spend/acquisitions; ROAS = revenue/spend; ROI = (contribution profit before marketing − spend)/spend. Aggregate ratios use sums. Zero denominators produce nulls.
+## Tech Stack
 
-2025 dataset: 3,670 raw records, 20 duplicate removals, 15 quarantined records, 3,635 clean records. Assumed contribution margin: 55%. Simulated last-click, 7-day attribution. Acquisition counts are attributed first purchases, not cross-channel unique customers.
+![Python](https://img.shields.io/badge/Python-334155?style=flat-square) ![Pandas](https://img.shields.io/badge/Pandas-334155?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-334155?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square)
 
-## Findings
-Spend INR 17,946,461.73; attributed revenue INR 157,487,468.50; net contribution INR 68,671,646.55; ROAS 8.78x; ROI 382.6%. Email ranks highest by simulated ROI. These values reflect generator assumptions and must not guide actual spending.
+Dependency versions and optional packages are defined in the repository manifests.
 
-## Validation and scope
-SQL/Python channel results reconcile. The pipeline checks nonnegative values, funnel ordering and unique date/campaign keys. Dashboard filtering uses ratios of filtered totals. Fixed corporate costs and tax are excluded. No retention, customer lifetime value, causal lift or hiring outcome is claimed.
+## Architecture / System Design Diagram
 
-License: MIT for code. Generated data may be reused with a synthetic-data label.
+Source layout and component inventory (asset not present in this checkout). A runtime architecture diagram remains a follow-up task.
+
+## Local Installation & Setup Guide
+
+```bash
+git clone https://github.com/harshakavali81-collab/Marketing-Campaign-ROI-Analytics-project.git
+cd Marketing-Campaign-ROI-Analytics-project
+```
+
+Python 3.10+ is recommended. From this folder:
+```
+python -m pip install -r requirements.txt
+python src/analyze.py
+```
+The checked-in raw dataset is used on reruns. Delete it only if you want the seeded generator to recreate it. The pipeline cleans data, saves quarantine records, builds SQLite, executes SQL, reconciles Python/SQL, and regenerates charts, CSVs, HTML and the final report. Excel is a delivered snapshot with live formulas; source regeneration does not automatically refresh its source sheet. Replace clean sheet records to refresh it.
+
+## Challenges & Solutions
+
+**Repository organization:** this project uses `src/`. Keeping those paths stable avoids breaking imports, asset links and deployment commands while the documentation follows a shared format. Project-specific technical limitations and prior release evidence are retained in [Project guide](PROJECT_GUIDE.md).
+
+## Future Improvements
+
+- Capture a reproducible end-to-end demo with runtime versions and sample inputs.
+- Expand regression checks for invalid inputs and documented edge cases.
+- Record measured results, data provenance and deployment limitations alongside each release.
+
+## Scope and supporting evidence
+
+End-to-end Data Analyst portfolio project for Kavali Harshavardhan using Excel, SQLite, Python and Power BI setup assets.
+
+**Synthetic data only.** This is a simulation, not a client engagement. No actual business growth or savings are claimed.
+
+## Repository Structure
+
+| Location | Purpose |
+| --- | --- |
+| `src/` | Source modules |
+| `docs/` | Documentation |
+| `data/` | Data and samples |
+| `sql/` | SQL schema and analysis |
+| `powerbi/` | Power BI build assets |
+| `.github/` | Issue forms, PR template and automated checks |
+
+[Complete file inventory and workflow](docs/REPOSITORY_STANDARD.md). Runtime entry points retain their existing paths.
+
+## Workflow & Tracking
+
+Use the [bug and feature forms](https://github.com/harshakavali81-collab/Marketing-Campaign-ROI-Analytics-project/issues/new/choose) to define work with acceptance criteria. Keep tasks in Todo → In progress → Review → Done, and link a pull request with `Closes #<number>`. See [the maintenance workflow](docs/REPOSITORY_STANDARD.md#workflow).
+
+## License
+
+See [LICENSE](LICENSE) for the existing terms.
